@@ -4,12 +4,12 @@ body {
 
 .sidenav {
   height: 100%;
-  width: 160px;
+  width: 300px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: SlateBlue;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -18,8 +18,22 @@ body {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #ffffff;
   display: block;
+  text-align: center;
+}
+
+.projects_frame {
+  padding: 6px 8px 6px 16px;
+  color: #ffffff;
+  display: block;
+  background-color: Violet;
+  text-align: center;
+}
+
+.sidenav_text{
+color: #ffffff;
+text-align: center;
 }
 
 .sidenav a:hover {
@@ -27,9 +41,23 @@ body {
 }
 
 .main {
-  margin-left: 160px; /* Same as the width of the sidenav */
+  margin-left: 300px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
+}
+
+.project_frame {
+padding: 6px 8px 6px 16px;
+color: #ffffff;
+display: block;
+background-color: White;
+text-align: center;
+}
+
+.test {
+	position: relative;
+	width: 0 auto;
+	list-style: none;
 }
 
 @media screen and (max-height: 450px) {
