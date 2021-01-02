@@ -43,6 +43,7 @@ body {
 }
 
 .sidenav_coord{
+	width: 100%;
 	color: #ffffff;
 	margin-left: -5%;
 }
