@@ -1,5 +1,6 @@
 body {
 	font-family: "Lato", sans-serif;
+	font-size: 80%;
 }
 
 .sidenav {
@@ -11,19 +12,19 @@ body {
 	left: 0;
 	background-color: #01A9DB;
 	overflow-x: hidden;
-	padding-top: 20px;
 }
 
 .profil_image {
 	display: block;
-	margin-left: 45px;
+	margin-top: 10%;
+	margin-left: auto;
+    margin-right: auto;
 	width: 70%;
 }
 
 .sidenav a {
 	padding: 6px 8px 6px 16px;
 	text-decoration: none;
-	font-size: 25px;
 	color: #ffffff;
 	display: block;
 	text-align: center;
@@ -34,18 +35,29 @@ body {
 	text-align: center;
 	margin-left: 5%;
 	margin-right: 5%;
+	font-size: 1.6vw;
 }
 .sidenav_text{
 	color: #ffffff;
 	text-align: justify;
 	margin-left: 5%;
 	margin-right: 5%;
+	font-size: 1vw;
+}
+
+.sidenav_profil_name{
+	color: #ffffff;
+	text-align: justify;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 2vw;
+	text-align: center;
 }
 
 .sidenav_coord{
-	width: 100%;
 	color: #ffffff;
 	margin-left: -5%;
+	font-size: 1vw;
 }
 
 .projects_frame {
@@ -56,14 +68,14 @@ body {
 	height:100%;
 }
 
-.sidenav a:hover {
-	color: #f1f1f1;
-}
-
 .main {
 	margin-left: 20%;
 	font-size: 28px;
 	padding: 0px 10px;
+}
+
+.project_part{
+	font-size: 3vw;
 }
 
 .project {
@@ -80,13 +92,15 @@ body {
 .project_title {
 	color: Black;
 	display: block;
+	font-size: 2vw;
 }
 
 .project_description {
 	color: Black;
 	display: inline-block;
 	text-align: justify;
-	width : 95%
+	width : 95%;
+	font-size: 1.75vw;
 }
 
 .project_separator{
@@ -99,9 +113,4 @@ body {
 	margin-left: 5%;
 	width: 40%;
 	display: inline;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 }
