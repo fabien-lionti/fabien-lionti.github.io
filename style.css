@@ -55,8 +55,14 @@ body {
 }
 
 .sidenav_coord{
+	margin-left: 5%;
+	margin-right: 5%;
 	color: #ffffff;
-	margin-left: -5%;
+	font-size: 1vw;
+}
+
+.coord_link{
+	display: inline;
 	font-size: 1vw;
 }
 
