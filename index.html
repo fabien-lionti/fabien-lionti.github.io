@@ -1,99 +1,200 @@
 <!DOCTYPE html>
-<html>  
-	<head>
-		<link href="style.css" rel="stylesheet">
-		<meta charset="utf-8">
-		<title> Fabien Lionti </Title>
-	</head>
-	
-	<body>
-		<div class="sidenav">
-			<img class="profil_image" src="images/resized_fabien_bw.png">
-			<h1 class="sidenav_profil_name">
-				Fabien Lionti
-			</h1>
-			<h2 class='sidenav_title'>
-				About :
-			</h2>
-			<p class="sidenav_text"> 
-				Graduated in the field of computer science, applied mathematics and statistics. My main areas of interest revolve around reinforcement learning, computer vision and evolutionary algorithms. The aim of this page is to share the different projects I have worked on to anyone interested. For more information, do not hesitate to contact me at the coordinates below.
-			</p>
-			<h2 class='sidenav_title'>
-				Contact :
-			</h2>
-		
-			<p class="sidenav_coord">
-				<b>- Email</b>: fabien{dot}lionti@gmail.com <br>
-				<b>- Github</b>: https://github.com/fabien-lionti <br>
-				<b>- Linkedin</b>: https://www.linkedin.com/in/fabien-lionti-21bb49136
-			</p>
-			
-		</div>
-		<div class="main">
-			<h2 class='project_part'> Some personnal project :</h2>
-			<a href='https://github.com/fabien-lionti/OCR-API'>
-				<div class="projects_frame">
-					<div class="project">
-						<div class="desc">
-							<h3 class='project_title'> 
-								API for handwritten text recognition
-							</h3>
-							<p class='project_description'> 
-								This API allows to recognize handwritten or typed content and convert it into text format. The API is developed in Python and based on the Opencv, TensorFlow and Flask libraries. A web application interfacing with the API has also been implemented in HTML5 / CSS3 and javascript.
-							</p>
-						</div>
-						<img class="image" src="images/Interface.png">
-					</div>
-				</div>
-			</a>
-			<hr class='project_separator'>
-			<a href='https://github.com/fabien-lionti/Particle-Swarm-Optimisation'>
-				<div class="projects_frame">
-					<div class="project">
-						<div class="desc">
-							<h3 class='project_title'> 
-								Particle Swarm Optimization
-							</h3>
-							<p class='project_description'> 
-								The Particle Swarm Optimization (PSO) algorithm is an evolutionary optimization algorithm. Originally inspired by the simulation of social behavior at the level of bird or fish swarm movements. PSO is a metaheuristic, not requiring that the problem to be optimized be continuous. I chose to take an interest and implement this algorithm in order to find the best combinations of hyperparameters of a kernel used to train a Support Vector Machine (SVM). By clicking on the image you will find the detailed code of my implementation in Python
-							</p>
-						</div>
-						<img class="image" src="images/pso.png">
-					</div>
-				</div>
-			</a>
-			<hr class='project_separator'>
-			<a href="https://github.com/fabien-lionti/Least-square-support-vector-machine-LSSVM-">
-				<div class="projects_frame">
-					<div class="project">
-						<div class="desc">
-							<h3 class='project_title'> 
-								Least Square Support Vector Machine
-							</h3>
-							<p class='project_description'>
-								 The least square support vector machine (LS-SVM) machine learning algorithm is a derivative version of vapnik's support vector machine that requires solving a system of linear equations instead of a quadratic optimization problem. The implementation of this algorithm starts from the desire to gain a better understanding of kernel-based learning algorithms. My choice of implementation turned to the Least Square version which is rare on the web.
-							</p>
-						</div>
-						<img class="image" src="images/Data_spiral.png">
-					</div>
-				</div>
-			</a>
-			<hr class='project_separator'>
-			<a href='https://github.com/fabien-lionti/Minimax'>
-				<div class="projects_frame">
-					<div class="project">
-						<div class="desc">
-							<h3 class='project_title'> 
-								Recursive Minimax applied to TicTacToe
-							</h3>
-							<p class='project_description'>
-								This project contains an implementation of an agent based on the minimax algorithm that can play the game of TicTacToe against humans. By clicking on the image you will find a recursive implementation of this algorithm as well as an implementation of the TicTacToe game in console version.
-							</p>
-						</div>
-						<img class="image" style="margin-left: 10%; width:30%" src="images/step-21.png">
-					</div>
-				</div>
-			</a>
-		</div>
-	</body>
-</html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Fabien Lionti</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Fabien Lionti</h1>
+      <nav>
+        <a href="#about">À propos</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Enseignement</a>
+        <a href="#blog">Blog</a>
+        <a href="#projects">Projets</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- About -->
+    <section id="about">
+      <h2 class="project_part">À propos</h2>
+      <p class="about_text">
+        Après un parcours en ingénierie, data science et intelligence artificielle, enrichi par deux années d’expérience dans l’industrie et le secteur de la défense, je poursuis actuellement une thèse de doctorat. Ce site vise à partager les travaux, projets et réflexions issus de ce parcours, à la croisée de la recherche appliquée, de l'innovation et de la pédagogie.
+      </p>
+      <p class="about_text">
+        Mes intérêts se situent à l’intersection de l’IA, de la robotique, de l’informatique et des mathématiques appliquées, avec un focus particulier sur :
+      </p>
+      <ul class="about_list">
+        <li>la production de connaissances (recherche, rédaction scientifique)</li>
+        <li>le transfert de technologies vers des cas d’usage concrets</li>
+        <li>la vulgarisation scientifique et les approches pédagogiques</li>
+        <li>l’accompagnement et la formation de profils techniques</li>
+        <li>la définition de feuilles de route technologiques et stratégiques</li>
+      </ul>
+      <p class="about_text">
+        Ce site regroupe mes projets, publications, interventions et articles. N’hésitez pas à me contacter pour échanger.
+      </p>
+	  <p class="about_text">
+		Vous pouvez également consulter mon <a href="documents/CV_Fabien_Lionti.pdf" target="_blank">CV complet ici (PDF)</a>.
+	  </p>
+	  
+    </section>
+
+    <!-- Publications -->
+    <section id="publications">
+      <h2 class="project_part">📖 Publications</h2>
+      <h3>Journal</h3>
+      <ul>
+        <li>Fabien Lionti, Nicolas Gutowski, Sébastien Aubin, Philippe Martinet. (2025). <em>Physics-guided approach with transfer learning in vehicle lateral dynamics.</em> Journal of Intelligent Information Systems.</li>
+      </ul>
+
+      <h3>Conférences internationales</h3>
+      <ul>
+        <li>Fabien Lionti, Nicolas Gutowski, Sébastien Aubin, Philippe Martinet. (2025). <em>Learning Direct Solution in Moving Horizon Estimation with Deep Learning Methods.</em> International Conference on Robotics and Automation (ICRA), 2025, Atlanta (GA), United States.</li>
+        <li>Fabien Lionti, Nicolas Gutowski, Sébastien Aubin, Philippe Martinet. (2025). <em>Bias-Variance Analysis of Multi-Step Loss Functions for Dynamical System Identification.</em> Proceedings of the International Joint Conference on Neural Networks (IJCNN), 2025, Rome, Italy.</li>
+        <li>Fabien Lionti, Nicolas Gutowski, Sébastien Aubin, Philippe Martinet. (2024). <em>Bayesian Approach for Parameter Estimation in Vehicle Lateral Dynamics.</em> Foundations of Intelligent Systems (ISMIS), 2024, Poitiers, France.</li>
+      </ul>
+
+      <h3>Conférence nationale</h3>
+      <ul>
+        <li>Fabien Lionti, Nicolas Gutowski, Sébastien Aubin, Philippe Martinet. (2023). <em>Approche bayésienne pour l’Estimation des Paramètres de la Dynamique Latérale d’un Véhicule.</em> Conférence sur l'Intelligence Artificielle pour la Défense (CAID), 2023, Rennes, France.</li>
+      </ul>
+    </section>
+
+    <!-- Teaching -->
+    <section id="teaching">
+      <h2 class="project_part">📚 Enseignement</h2>
+      <p>J’ai enseigné en tant que vacataire ou intervenant sur les thématiques suivantes :</p>
+      <ul>
+        <li>Introduction à la gestion de projet</li>
+        <li>Data sciences</li>
+		<li>C/C++</li>
+		<li>Internet of things (IoT)</li>
+      </ul>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog">
+      <h2 class="project_part">📝 Blog</h2>
+
+      <h3>Tutoriels techniques</h3>
+      <ul class="blog_list">
+        <li><a href="articles/detection-anomalies-industrielles.html">Détection d’anomalies visuelles dans l’industrie</a></li>
+        <li><a href="articles/reduction-dimension-sondages.html">Réduction de dimension pour des sondages complexes</a></li>
+		<li><a href="articles/Identification_de_systèmes.html">Identification de systèmes</a></li>
+      </ul>
+
+      <!-- <h3>Réflexions</h3>
+      <ul class="blog_list">
+        <li><a href="articles/ia-revolution-abstraite.html">L’IA, une révolution abstraite</a></li>
+        <li><a href="articles/ia-creative.html">L’IA est-elle créative ?</a></li>
+      </ul> -->
+
+      <h3>Vulgarisation</h3>
+      <ul class="blog_list">
+        <section id="series-demystifier-ia">
+          <h2>Série : Démystifier l’intelligence artificielle</h2>
+          <p>Une série d’articles pour comprendre les bases, les mécanismes et les enjeux de l’IA, sans jargon inutile.</p>
+        
+          <ul class="article-list">
+            <li>
+              <a href="articles/pourquoi-incompréhension-ia.html">
+                1 - Pourquoi on ne comprend rien à l’IA ?
+              </a>
+            </li>
+            <li>
+              <a href="articles/quest-ce-quune-donnee.html">
+                2 - Qu’est-ce qu’une donnée au sens informationnel ?
+              </a>
+            </li>
+            <li>
+              <a href="articles/comment-un-algo-voit.html">
+                3 - Comment un algorithme « voit » et prend des décisions à partir de données ?
+              </a>
+            </li>
+            <li>
+              <a href="articles/fiabilite-au-dela-entrainement.html">
+                4 - Comment garantir qu’un modèle est fiable au-delà des données d’entraînement ?
+              </a>
+            </li>
+            <li>
+              <a href="articles/quel-algorithme-pour-quel-probleme.html">
+                5 - Quel algorithme pour quel type de problème ?
+              </a>
+            </li>
+            <li>
+              <a href="articles/reussir-projet-ia.html">
+                6 - Quels sont les facteurs clés de réussite d’un projet en IA ?
+              </a>
+            </li>
+            <li>
+              <a href="articles/biais-ethique-explicabilite.html">
+                7 - Comment traiter les enjeux de biais, d’éthique et d’explicabilité ?
+              </a>
+            </li>
+          </ul>
+        </section>
+        
+        <!-- <ul class="blog_list">
+          <li>
+            <a href="articles/demystifier_lia.html">
+              Pourquoi on ne comprends rien à l'IA ?
+            </a>
+            <a href="articles/demystifier_lia.html">
+              Qu'est ce qu'une donnée ?
+            </a>
+          </li> -->
+        </ul>
+      </ul>
+      
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2 class="project_part">📁 Projets</h2>
+      <div class="projects_grid">
+        <a href="https://github.com/fabien-lionti/OCR-API">
+          <div class="project_card">
+            <img src="images/Interface.png" alt="OCR API">
+            <h3>API de reconnaissance manuscrite</h3>
+            <p>Reconnaissance de texte manuscrit ou imprimé avec OpenCV, TensorFlow et Flask.</p>
+          </div>
+        </a>
+        <a href="https://github.com/fabien-lionti/Particle-Swarm-Optimisation">
+          <div class="project_card">
+            <img src="images/pso.png" alt="PSO">
+            <h3>Optimisation par essaim particulaire</h3>
+            <p>Optimisation d’hyperparamètres SVM via un algorithme évolutionnaire inspiré des comportements collectifs.</p>
+          </div>
+        </a>
+        <a href="https://github.com/fabien-lionti/Least-square-support-vector-machine-LSSVM-">
+          <div class="project_card">
+            <img src="images/Data_spiral.png" alt="LS-SVM">
+            <h3>SVM à moindres carrés</h3>
+            <p>Implémentation d’un algorithme SVM basé sur la résolution d’équations linéaires.</p>
+          </div>
+        </a>
+        <a href="https://github.com/fabien-lionti/Minimax">
+          <div class="project_card">
+            <img src="images/step-21.png" alt="Minimax">
+            <h3>Algorithme Minimax</h3>
+            <p>Agent jouant au morpion contre un humain via une stratégie récursive optimale.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Fabien Lionti – Contact : fabien{dot}lionti@gmail.com</p>
+    <p>
+      <a href="https://github.com/fabien-lionti">GitHub</a> |
+      <a href="https://www.linkedin.com/in/fabien-lionti-21bb49136">LinkedIn</a>
+    </p>
+  </footer>
